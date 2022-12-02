@@ -1,10 +1,10 @@
-import { Navbar } from "./components/Navbar";
+import { Bar } from "./components/Bar";
+
 
 function App() {
   return (
     <>
-      < Navbar />
-      <h1>God</h1>
+      < Bar />
     </>
   );
 }
