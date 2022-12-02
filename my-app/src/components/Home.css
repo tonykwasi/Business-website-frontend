@@ -5,6 +5,22 @@
     background-repeat: no-repeat;
 }
 
-.txtx{
-    
+.txt1 {
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    font-size: 4.2rem;
+    font-weight: bold;
+}
+
+.txt2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.hbtn {
+    display: grid;
+    grid-template-columns: 120px 100px;
+    justify-content: center;
 }

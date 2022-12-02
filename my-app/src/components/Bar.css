@@ -1,7 +1,13 @@
 .nav-background {
     background: url("../images/b2.jpg");
     height:667px;
-    background-size: 90rem;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 765px) {
+    .nav-background {
+        background: url("../images/b2.jpg");
+        
+    }
+}
