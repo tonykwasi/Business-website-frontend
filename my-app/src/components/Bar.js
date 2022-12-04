@@ -15,7 +15,7 @@ export const Bar = () => {
   return (
     
       <BrowserRouter>
-        <Navbar expand="lg" className="fixed-top">
+        <Navbar expand="lg">
           <Container>
             <Navbar.Brand as={Link} to="/" className="lg">
               <FaBullseye /> Economy
