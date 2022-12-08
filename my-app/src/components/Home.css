@@ -1,156 +1,420 @@
 /*
-$desktop 1200px(xl)
-$laptop 1024px(lg)
-$tablet 768px (md)
-$phone 480px(sm)
+$desktop: 1200px; //(xl)
+$laptop: 1024px; //(lg)
+$tablet: 768px; // (md)
+$phone: 480px; //(sm)
 */
 
 /*styling the background image and adding media query*/
 .img-txt {
-    background: url("../images/b2.jpg");
-    height:667px;
-    background-size: 90rem;
-    background-repeat: no-repeat;
-   
+  background: url("../images/b2.jpg");
+  height: 667px;
+  background-size: 90rem;
+  background-repeat: no-repeat;
 }
 
 /*media query for the bacground images*/
-@media only screen and  (max-width: 768px) {
-    .img-txt{
-        background-position:  25% 80%;
-        height:600px;
-    }
+@media only screen and (max-width: 768px) {
+  .img-txt {
+    background-position: 25% 80%;
+    height: 600px;
+  }
 }
 
 .txt1 {
-    text-align: center;
-    color: white;
-    padding-top: 15rem;
-    font-size: 4.2rem;
-    font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 15rem;
+  font-size: 4.2rem;
+  font-weight: bold;
 }
 
 .txt2 {
-    text-align: center;
-    color: white;
-    font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .hbtn {
-    display: grid;
-    grid-template-columns: 120px 100px;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 120px 100px;
+  justify-content: center;
 }
 
 /* Styling the About section */
 .about {
-    margin-top: 60px;
-    display:grid;
-    grid-template-columns: 280px 280px 280px 280px;
-    grid-template-rows: 150px 350px;
-    justify-content: center;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-template-rows: 150px 350px;
+  justify-content: center;
 }
 
 .item1 {
-    text-align: center;
-    grid-column: 1 / 5;
-    
+  text-align: center;
+  grid-column: 1 / 5;
 }
 
 .item2 {
-    text-align: center;
-    padding-top: 10px;
-    background:url("../images/a1.jpg") ;
-    background-repeat: no-repeat;
-    background-position: 15px 30px;
+  text-align: center;
+  padding-top: 10px;
+  background: url("../images/a1.jpg");
+  background-repeat: no-repeat;
+  background-position: 15px 30px;
 }
 
 .item3 {
-    text-align: center;
-    padding-top: 10px;
-    background:url("../images/a2.jpg") ;
-    background-repeat: no-repeat;
-    background-position: 15px 30px;
+  text-align: center;
+  padding-top: 10px;
+  background: url("../images/a2.jpg");
+  background-repeat: no-repeat;
+  background-position: 15px 30px;
 }
 
 .item4 {
-    text-align: center;
-    padding-top: 10px;
-    background:url("../images/a3.jpg") ;
-    background-repeat: no-repeat;
-    background-position: 15px 30px;
+  text-align: center;
+  padding-top: 10px;
+  background: url("../images/a3.jpg");
+  background-repeat: no-repeat;
+  background-position: 15px 30px;
 }
 
 .item5 {
-    text-align: center;
-    padding-top: 10px;
-    background:url("../images/a4.jpg") ;
-    background-repeat: no-repeat;
-    background-position: 15px 30px;
+  text-align: center;
+  padding-top: 10px;
+  background: url("../images/a4.jpg");
+  background-repeat: no-repeat;
+  background-position: 15px 30px;
 }
 
 .badge {
-    margin-top: 190px;
+  margin-top: 190px;
 }
 
 .badge1 {
-    color: blue;
-    font-size: 20px;
+  color: blue;
+  font-size: 20px;
 }
 
 .badge2 {
-    color: black;
+  color: black;
 }
 
 /*media query for the About page*/
-@media only screen and  (max-width: 1010px) {
-    .about{
-        display: grid;
-        grid-template-columns: 280px 280px;
-        grid-template-rows: 150px 320px 320px;
-        column-gap: 1px;
-    }
-    .item1 {
-        grid-column: 1 / 3;
-    }
+@media only screen and (max-width: 768px) {
+  .about {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    grid-template-rows: 150px 320px 320px;
+    column-gap: 1px;
+  }
+  .item1 {
+    grid-column: 1 / 3;
+  }
+}
+
+/* styling for services*/
+.services {
+  background-color: blueviolet;
+  height: 39rem;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 200px 320px;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.s1 {
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+.s2 {
+  text-align: center;
+}
+
+.s3 {
+  text-align: center;
+}
+
+.s4 {
+  text-align: center;
+}
+
+.ps1 {
+  color: white;
+  font-size: 43px;
+  margin-top: 30px;
+}
+
+.ps2 {
+  color: aqua;
+  font-size: 20px;
+}
+
+.ps3 {
+  color: aqua;
+  font-size: 20px;
+}
+
+.fpt {
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 37px;
+}
+
+.sb {
+  padding-top: 90px;
+  padding-left: 37px;
+  text-align: left;
+  color: violet;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*media query for services page*/
+@media only screen and (max-width: 990px) {
+  .services {
+    grid-template-columns: 180px;
+    grid-template-rows: 220px 320px 320px 320px;
+    row-gap: 20px;
+    height: 83rem;
+  }
+  .s1 {
+    grid-column: 1 / 4;
+  }
+  .s2 {
+    grid-column: 1 / 4;
+  }
+  .s3 {
+    grid-column: 1 / 4;
+  }
+  .s4 {
+    grid-column: 1 / 4;
+  }
+}
+
+/* Styling for Our Price */
+.price {
+  padding-top: 4rem;
+  height: 47rem;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 200px 400px;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.price1 {
+  grid-column: 1 / 5;
+  text-align: center;
+}
+
+.price2 {
+  text-align: center;
+  box-shadow: 0px 0px 10px 5px lightblue;
+}
+
+.price3 {
+  text-align: center;
+  box-shadow: 0px 0px 10px 5px lightblue;
+}
+
+.price4 {
+  text-align: center;
+  box-shadow: 0px 0px 10px 5px lightblue;
+}
+
+.price5 {
+  text-align: center;
+  box-shadow: 0px 0px 10px 5px lightblue;
+}
+
+.gld {
+  font-weight: bold;
+  color: violet;
+  font-size: 20px;
+  padding-top: 27px;
+}
+
+/*media query for services page (500px and down) */
+@media only screen and (max-width: 500px) {
+  .price {
+    height: 118rem;
+    display: grid;
+    grid-template-columns: 440px;
+    grid-template-rows: 300px 350px 350px 350px 350px;
+    row-gap: 0.5rem;
+  }
+  .price1 {
+    grid-column: 1 / 2;
+  }
+  .price2 {
+    grid-column: 1 / 2;
+  }
+
+  .price3 {
+    grid-column: 1 / 2;
+  }
+
+  .price4 {
+    grid-column: 1 / 2;
+  }
+
+  .price5 {
+    grid-column: 1 / 2;
+  }
+}
+
+/* styling for gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: 336.9px 336.9px 336.9px 336.9px;
+    grid-template-rows: 300px 300px;
+
+}
+
+.g1 {
+    background: url("../images/bb1.jpg");
+}
+
+.g2 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.g3 {
+    text-align: center;
+    background: url("../images/bb2.jpg");
+}
+
+.g4 {
+    text-align: center;
+}
+
+.g5 {
+    text-align: center;
+    
+}
+
+.g6 {
+    text-align: center;
+    background: url("../images/bb2.jpg");
+}
+
+.g7 {
+    text-align: center;
+    
+}
+
+.g8 {
+    text-align: center;
+    background: url("../images/bb1.jpg");
 }
 
 
+/* styling for Our Clent */
+.clnts {
+  display: grid;
+  height: 36rem;
+  grid-template-columns: 550px 550px;
+  grid-template-rows: 250px 250px;
+  justify-content: center;
+  padding-top: 2rem;;
+}
 
+.clt1 {
+  text-align: center;
+  grid-column: 1 / 3;
+  padding-top:4rem;
+}
 
+.clt11 {
+  font-size: 38px;
+}
 
+.clt111 {
+  color: brown;
+  font-size: 20px;
+}
 
-/* styling for services*/
- .services {
-    background-color: blueviolet;
-    height: 37rem;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 200px 320px;
-    justify-content: center;
-    column-gap: 2rem;
-    row-gap: 2rem;
- }
+.clt2 {
+  text-align: center;
+  grid-column: 1 / 2;
+}
 
- .s1 {
-    text-align: center;
-    grid-column: 1 / 4;
- }
+.clt3 {
+  text-align: center;
+  grid-column: 2 / 3;
+}
 
- .s2 {
-    text-align: center;
- }
+.c1 {
+  border-radius: 50px;
+}
 
- .s3 {
-    text-align: center;
- }
+.c2 {
+  border-radius: 50px;
+}
 
- .s4 {
-    text-align: center;
- }
+.td {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: bold;
+}
 
- /*media query for the About page*/
-@media only screen and  (max-width: 1010px) {
-   
+/* styling for footer */
+
+.footer {
+  display:grid;
+  grid-template-columns: 380px 380px 380px ;
+  grid-template-rows: 300px 200px;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.footer1 {
+  grid-column: 1 / 2;
+  text-align: left;
+}
+
+.footer2 {
+  grid-column: 2 / 3;
+  text-align: left;
+}
+
+.footer3 {
+  grid-column: 3 / 4;
+  text-align: left;
+}
+
+.footer4 {
+  grid-column: 1 / 4;
+  text-align:center;
+}
+
+.ad {
+  color: blue;
+  font-size: 20px;
+}
+
+.ad1 {
+  color: white;
+}
+
+.ad2 {
+  color: white;
+}
+
+.ad3 {
+  color: white;
+}
+
+.ec{
+  color: aliceblue;
+  font-size:25px;
 }
