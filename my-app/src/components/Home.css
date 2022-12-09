@@ -133,14 +133,17 @@ $phone: 480px; //(sm)
 
 .s2 {
   text-align: center;
+  grid-column: 1 / 2;
 }
 
 .s3 {
   text-align: center;
+  grid-column: 2 / 3;
 }
 
 .s4 {
   text-align: center;
+  grid-column: 3 / 4;
 }
 
 .ps1 {

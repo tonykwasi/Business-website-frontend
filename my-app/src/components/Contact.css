@@ -1,0 +1,47 @@
+/* styling for the first page */
+.backgroud-image {
+    background: url("../images/b2.jpg");
+    height: 25rem;
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+  }
+
+  .txt {
+    text-align: center;
+    background-color: blue;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: aliceblue;
+  }
+
+/* styling for second session */  
+.ctt {
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 240px 300px;
+    justify-content: center;
+    height: 20rem;
+
+}
+
+.ctt1 {
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+.ctt2 {
+    grid-row: 2 / 3;
+    text-align: center;
+}
+
+.tttt {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.tttt1 {
+    font-size: 20px;
+    color: brown;
+    
+}

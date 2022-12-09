@@ -1,0 +1,254 @@
+/* styling for the first page */
+.backgroud-image {
+    background: url("../images/b2.jpg");
+    height: 25rem;
+    background-size: 90rem;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+  }
+
+  .txt {
+    text-align: center;
+    background-color: blue;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: aliceblue;
+  }
+
+/* styling for second page */
+.service {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 200px 220px 220px;
+    justify-content: center;
+    column-gap: 1.8rem;
+    row-gap: 1.5rem;
+    height: 50rem;
+    padding-top: 4rem;
+}
+
+.p {
+    font-size: 35px;
+}
+
+.p1 {
+    font-size: 20px;
+    color: rgb(184, 154, 120);
+}
+
+.serve1 {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+.serve2 {
+    grid-column: 1 / 2;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.serve3 {
+    grid-column: 2 / 3;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.serve4 {
+    grid-column: 3 / 4;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.serve5 {
+    grid-column: 1 / 2;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.serve6 {
+    grid-column: 2 / 3;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.serve7 {
+    grid-column: 3 / 4;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    font-size:28px;
+    padding-top: 1.5rem;
+}
+
+.ict {
+    padding-top: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+  /* Styling for Our Price */
+.price {
+    padding-top: 4rem;
+    height: 47rem;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 400px;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  
+  .price1 {
+    grid-column: 1 / 5;
+    text-align: center;
+  }
+  
+  .price2 {
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px lightblue;
+  }
+  
+  .price3 {
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px lightblue;
+  }
+  
+  .price4 {
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px lightblue;
+  }
+  
+  .price5 {
+    text-align: center;
+    box-shadow: 0px 0px 10px 5px lightblue;
+  }
+  
+  .gld {
+    font-weight: bold;
+    color: violet;
+    font-size: 20px;
+    padding-top: 27px;
+  }
+
+  /* styling for footer */
+
+.footer {
+    display:grid;
+    grid-template-columns: 380px 380px 380px ;
+    grid-template-rows: 300px 200px;
+    justify-content: center;
+    padding-top: 70px;
+  }
+  
+  .footer1 {
+    grid-column: 1 / 2;
+    text-align: left;
+  }
+  
+  .footer2 {
+    grid-column: 2 / 3;
+    text-align: left;
+  }
+  
+  .footer3 {
+    grid-column: 3 / 4;
+    text-align: left;
+  }
+  
+  .footer4 {
+    grid-column: 1 / 4;
+    text-align:center;
+  }
+  
+  .ad {
+    color: blue;
+    font-size: 20px;
+  }
+  
+  .ad1 {
+    color: white;
+  }
+  
+  .ad2 {
+    color: white;
+  }
+  
+  .ad3 {
+    color: white;
+  }
+  
+  .ec{
+    color: aliceblue;
+    font-size:25px;
+  }
+
+
+  /* styling for services*/
+.services {
+    background-color: blueviolet;
+    height: 39rem;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 200px 320px;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+  
+  .s1 {
+    text-align: center;
+    grid-column: 1 / 4;
+    
+  }
+  
+  .s2 {
+    text-align: center;
+    grid-column: 1 / 2;
+  }
+  
+  .s3 {
+    text-align: center;
+    grid-column: 2 / 3;
+  }
+  
+  .s4 {
+    text-align: center;
+    grid-column: 3 / 4;
+  }
+  
+  .ps1 {
+    color: white;
+    font-size: 43px;
+    margin-top: 30px;
+  }
+  
+  .ps2 {
+    color: aqua;
+    font-size: 20px;
+  }
+  
+  .ps3 {
+    color: aqua;
+    font-size: 20px;
+  }
+  
+  .fpt {
+    word-wrap: break-word;
+    text-align: left;
+    padding-left: 37px;
+  }
+  
+  .sb {
+    padding-top: 90px;
+    padding-left: 37px;
+    text-align: left;
+    color: violet;
+    font-weight: bold;
+    font-size: 20px;
+  }
